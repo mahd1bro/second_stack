@@ -1,9 +1,10 @@
 {
-  "name": "second-stack",
+  "name": "backend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -25,5 +26,17 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahd1bro/second_stack.git"
+  },
+  "author": "mooda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahd1bro/second_stack/issues"
+  },
+  "homepage": "https://github.com/mahd1bro/second_stack#readme"
 }
