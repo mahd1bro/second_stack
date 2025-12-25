@@ -10,14 +10,13 @@ const App = () => {
   const [notes, setNotes] = useState([])
   const [newNote, setNewNotes] = useState('')
   const [showAll, setShowAll] = useState(true)
-  const [errorMessage, setErrorMessage] = useState('some error occured...')
+  const [errorMessage, setErrorMessage] = useState(null)
 
   const addNotes = (event) => {
     event.preventDefault()
     const noteObject = {
       content: newNote,
       important: Math.random() > 0.5,
-      id: String(notes.length + 1)
     }
 
     noteService
